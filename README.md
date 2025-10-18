@@ -10,6 +10,17 @@ py -m venv .venv
 
 Activar el entorno (elige según tu shell):
 
+- PowerShell:
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+- Command Prompt (CMD):
+```cmd
+.venv\Scripts\activate
+```
+
+- Git Bash / WSL:
 ```bash
 source .venv/bin/activate
 ```
